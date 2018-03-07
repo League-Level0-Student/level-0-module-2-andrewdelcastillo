@@ -17,9 +17,10 @@ public class SoundtrackToLife {
 		// 2. Their answer is stored in the userMood variable. Print it out.
 System.out.println(userMood);
 		// 3. If they are in a stressed mood, use the playVideo method to play a calming song from YouTube.
-		
-playVideo("http://bit.ly/video-for-happy");  
-		
+		if(userMood == 0)
+{playVideo("http://bit.ly/video-for-happy");  
+		if(userMood == 1)
+			playVideo("")
 		// 4. Play different songs for other moods.
 
 /**
