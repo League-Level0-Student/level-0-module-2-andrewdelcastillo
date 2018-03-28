@@ -38,7 +38,7 @@ for(int i = 0; i < 30; i++)
 	        // 15. decrease the Y position by star size. See Figure 3.
 	y = y - star;
 			// 16. Increase the star size by 20
-	
+	sta
 			// 17. Turn the robot 12 degrees
 	
 			// 18. Make each star a different random color like in Figure 4. 
